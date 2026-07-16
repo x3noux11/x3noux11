@@ -100,6 +100,3 @@ Mon GitHub me sert principalement à documenter, versionner et partager les briq
 ---
 
 <div align="center">
-  <i>"L'auto-hébergement n'est pas seulement un moyen d'héberger ses services, c'est le meilleur moyen de comprendre comment fonctionnent réellement le réseau et les systèmes."</i><br><br>
-  📬 N'hésite pas à explorer mes dépôts ou à me contacter si tu partages les mêmes passions pour le self-hosting !
-</div>
