@@ -1,12 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Alexandre%20Ampen&subtitle=Systems%20%26%20Networks%20Technician%20%7C%20Homelab%20Enthusiast&fontSize=35&fontAlignY=40&descSize=18&descAlignY=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Alexandre&subtitle=Systems%20%26%20Networks%20Technician%20%7C%20Homelab%20Enthusiast&fontSize=35&fontAlignY=40&descSize=18&descAlignY=62" width="100%" />
 </div>
 
 <div align="center">
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) <!-- Mets ton lien LinkedIn ici si tu en as un -->
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) <!-- Optionnel : ajoute ton lien LinkedIn -->
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/x3noux11)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](#) <!-- Optionnel : lien vers ton site ou blog -->
 
 </div>
 
@@ -14,33 +13,33 @@
 
 ## 🙋‍♂️ À propos de moi
 
-Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (Homelab)** et la **sécurisation des systèmes**. Actuellement technicien systèmes et réseaux pour [Normandie Ingénierie (NIIT)](https://niit.fr) et en cours de formation d'administrateur chez **CESI**, je passe une grande partie de mon temps libre à concevoir, sécuriser et automatiser des infrastructures réseau et des services auto-hébergés.
+Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (Homelab)** et la **sécurisation des systèmes**. Actuellement technicien systèmes et réseaux et en cours de formation d'administrateur, je consacre une grande partie de mon temps libre à concevoir, sécuriser et automatiser des infrastructures réseau et des services auto-hébergés.
 
-* 🛠️ **En ce moment, je travaille sur :** L'automatisation de ma stack de médias via des scripts IA (Gemini API & MCP) et l'optimisation de mes pipelines de routage réseau.
-* 🔒 **Focus principal :** Sécurisation périmétrique (MFA sans mot de passe / Passkeys, SSO, Reverse Proxies).
-* 🚀 **Objectif :** Évoluer vers des rôles de DSI (Directeur des Systèmes d'Information) ou responsable sécurité.
+* 🛠️ **En ce moment, je travaille sur :** L'automatisation de mes pipelines de routage réseau et l'intégration d'outils d'IA locale à mes services.
+* 🔒 **Focus principal :** Sécurisation périmétrique (MFA, SSO, Reverse Proxies).
+* 🚀 **Objectif :** Évoluer vers des rôles d'administration systèmes et réseaux avancés ou de gestion de la sécurité informatique.
 
 ---
 
-## 🏗️ Mon Homelab & Projets phares
+## 🏗️ Mon Homelab & Projets
 
 Mon GitHub me sert principalement à documenter, versionner et partager les briques de mon infrastructure personnelle :
 
-### 📡 1. Network Edge & Reverse Proxy
-* **Pare-feu & Routage :** Clustering HA avec **OPNsense / pfSense** et failover CARP.
-* **Exposition Sécurisée :** **Cloudflare Tunnels** couplés à **Nginx Proxy Manager** pour contourner le CGNAT de ma box 4G.
-* **Sécurité & SSO :** Authentification unifiée et sans mot de passe via **Authentik** (Passkeys biométriques, TOTP, OIDC) couplée à **CrowdSec** pour le filtrage IP.
+### 📡 1. Réseau & Sécurité
+* **Pare-feu & Routage :** Clustering HA avec **OPNsense / pfSense** et protocoles de failover.
+* **Exposition Sécurisée :** **Reverse Proxies (Nginx Proxy Manager)** et solutions de tunnel de contournement réseau.
+* **Sécurité & SSO :** Centralisation des accès avec **Authentik** (MFA, Passkeys, OIDC) et sécurisation contre les intrusions via **CrowdSec**.
 
-### 🐳 2. Virtualisation & Conteneurs (La Stack Proxmox)
-* **Hyperviseur :** Cluster de nœuds **Proxmox VE** faisant tourner des VM Debian et des conteneurs légers Alpine Linux LXC.
-* **Stockage Distribué :** Expérimentations avec des arrays de stockage distribué **Ceph**.
-* **Services Auto-hébergés :**
-  * **Médias & Automation :** Stack Docker intégrant Tdarr, Radarr, Sonarr et Prowlarr.
-  * **IA Locale :** Instances d'**Ollama** et **LobeHub** optimisées avec accélération matérielle (CLBlast / Vulkan).
-  * **Prise de notes synchronisée :** Serveur **CouchDB** dédié à la synchronisation en temps réel de mes bases Obsidian.
+### 🐳 2. Virtualisation & Stockage
+* **Hyperviseur :** Cluster de nœuds **Proxmox VE** faisant tourner des VM Debian et des conteneurs légers LXC.
+* **Stockage :** Expérimentations avec du stockage distribué et gestion d'arrays de disques locaux.
+* **Services Auto-hébergés :** 
+  * Solutions de synchronisation de données (CouchDB pour Obsidian, etc.).
+  * Intégration d'**Ollama** pour exécuter des modèles de langage localement.
+  * Automatisation d'une stack de gestion de médias sous Docker.
 
 ### 🤖 3. Automatisation & Scripts
-* **AI-Media Pipeline :** Développement d'un script Python connecté à l'API Gemini pour analyser visuellement des captures d'écran de médias et interagir avec l'API Radarr/Sonarr via le protocole MCP (Model Context Protocol).
+* **Pipelines & Scripts :** Développement de scripts (Python, Bash) permettant de connecter des APIs de traitement d'images ou de données avec mes gestionnaires de téléchargements et de fichiers locaux.
 
 ---
 
@@ -62,10 +61,10 @@ Mon GitHub me sert principalement à documenter, versionner et partager les briq
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=flat-square&logo=alpine-linux&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/CachyOS-00A4E4?style=flat-square&logo=arch-linux&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
     </td>
     <td valign="top" width="33%">
-      <h3>🐍 Langages & Dev</h3>
+      <h3>🐍 Langages & Outils</h3>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" /><br/>
@@ -101,6 +100,6 @@ Mon GitHub me sert principalement à documenter, versionner et partager les briq
 ---
 
 <div align="center">
-  <i>"L'auto-hébergement n'est pas seulement un moyen de contourner les abonnements, c'est le meilleur moyen de comprendre comment fonctionne réellement le web."</i><br><br>
+  <i>"L'auto-hébergement n'est pas seulement un moyen d'héberger ses services, c'est le meilleur moyen de comprendre comment fonctionnent réellement le réseau et les systèmes."</i><br><br>
   📬 N'hésite pas à explorer mes dépôts ou à me contacter si tu partages les mêmes passions pour le self-hosting !
 </div>
