@@ -1,71 +1,105 @@
-<!-- EN-TÊTE GÉANTE -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=ALEXANDRE&subtitle=🛡️%20ADMINISTRATEUR%20SYSTÈMES%20%26%20RÉSEAUX%20%20%7C%20%20⚙️%20DEV%20%26%20INFRA&fontSize=50&fcolor=ffffff&subFontSize=18&subfColor=39FF14" width="100%" />
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Alexandre&subtitle=Systems%20%26%20Networks%20Technician%20%7C%20Homelab%20Enthusiast&fontSize=35&fontAlignY=40&descSize=18&descAlignY=62" width="100%" />
+</div>
 
-<!-- COMPTEURS ET BADGES DE STATUT D'INFRASTRUCTURE -->
-<p align="center">
-  <img src="https://img.shields.io/badge/INFRASTRUCTURE-ONLINE-39FF14?style=for-the-badge&logo=statuspage&logoColor=39FF14&color=121212" />
-  <img src="https://img.shields.io/badge/MAIN_OS-CACHYOS_LINUX-00A4E4?style=for-the-badge&logo=archlinux&logoColor=00A4E4&color=121212" />
-  <img src="https://img.shields.io/badge/LOCATION-NORMANDIE_FRANCE-FF5722?style=for-the-badge&logo=googlemaps&logoColor=white&color=121212" />
-</p>
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) <!-- Optionnel : ajoute ton lien LinkedIn -->
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/x3noux11)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=x3noux11&label=MONITORING%20SESSIONS&color=58a6ff&style=for-the-badge" alt="Access Count" />
-  <img src="https://img.shields.io/badge/SECURITY_AUDIT-PASSED-39FF14?style=for-the-badge&logo=securityscorecard&logoColor=white&color=121212" />
-</p>
+</div>
 
 ---
 
-## 🙋‍♂️ À propos de mon profil d'Administrateur
+## 🙋‍♂️ À propos de moi
 
-Passionné d'informatique, de virtualisation, de réseaux et de sécurité, je gère un environnement de production personnel (**Homelab**) hautement disponible. Je consacre mon temps à automatiser, monitorer et durcir mes infrastructures physiques et virtuelles.
+Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (Homelab)** et la **sécurisation des systèmes**. Actuellement technicien systèmes et réseaux et en cours de formation d'administrateur, je consacre une grande partie de mon temps libre à concevoir, sécuriser et automatiser des infrastructures réseau et des services auto-hébergés.
+
+* 🛠️ **En ce moment, je travaille sur :** L'automatisation de mes pipelines de routage réseau et l'intégration d'outils d'IA locale à mes services.
+* 🔒 **Focus principal :** Sécurisation périmétrique (MFA, SSO, Reverse Proxies).
+* 🚀 **Objectif :** Évoluer vers des rôles d'administration systèmes et réseaux avancés ou de gestion de la sécurité informatique.
 
 ---
 
-## 🛠️ Stack Technique Globale (Mes Badges)
+## 🏗️ Mon Homelab & Projets
 
-### 💾 Systèmes d'Exploitation & Virtualisation
-<p align="left">
-  <img src="https://img.shields.io/badge/Proxmox_VE-E74C3C?style=for-the-badge&logo=proxmox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white" />
-  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-</p>
+Mon GitHub me sert principalement à documenter, versionner et partager les briques de mon infrastructure personnelle :
 
-### 🌐 Réseaux, Edge & Sécurité
-<p align="left">
-  <img src="https://img.shields.io/badge/pfSense-000000?style=for-the-badge&logo=pfsense&logoColor=white" />
-  <img src="https://img.shields.io/badge/OPNsense-FF6600?style=for-the-badge&logo=opnsense&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx_Proxy_Manager-20B2AA?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Authentik-1A73E8?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrowdSec-FF4F00?style=for-the-badge&logo=crowdsec&logoColor=white" />
-  <img src="https://img.shields.io/badge/AdGuard_Home-43B02A?style=for-the-badge&logo=adguard&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenVPN-EA7B00?style=for-the-badge&logo=openvpn&logoColor=white" />
-  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" />
-</p>
+### 📡 1. Réseau & Sécurité
+* **Pare-feu & Routage :** Clustering HA avec **OPNsense / pfSense** et protocoles de failover.
+* **Exposition Sécurisée :** **Reverse Proxies (Nginx Proxy Manager)** et solutions de tunnel de contournement réseau.
+* **Sécurité & SSO :** Centralisation des accès avec **Authentik** (MFA, Passkeys, OIDC) et sécurisation contre les intrusions via **CrowdSec**.
 
-### 🐍 Langages, Scripts & Bases de Données
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-  <img src="https://img.shields.io/badge/CouchDB-E05243?style=for-the-badge&logo=apache-couchdb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-</p>
+### 🐳 2. Virtualisation & Stockage
+* **Hyperviseur :** Cluster de nœuds **Proxmox VE** faisant tourner des VM Debian et des conteneurs légers LXC.
+* **Stockage :** Expérimentations avec du stockage distribué et gestion d'arrays de disques locaux.
+* **Services Auto-hébergés :** 
+  * Solutions de synchronisation de données (CouchDB pour Obsidian, etc.).
+  * Intégration d'**Ollama** pour exécuter des modèles de langage localement.
+  * Automatisation d'une stack de gestion de médias sous Docker.
 
-### 🤖 IA Locale & Supervision
-<p align="left">
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
-  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Uptime_Kuma-33D47E?style=for-the-badge&logo=uptime-kuma&logoColor=white" />
-</p>
+### 🤖 3. Automatisation & Scripts
+* **Pipelines & Scripts :** Développement de scripts (Python, Bash) permettant de connecter des APIs de traitement d'images ou de données avec mes gestionnaires de téléchargements et de fichiers locaux.
+
+---
+
+## 🛠️ Boîte à outils technique
+
+<table align="center" border="0" cellpadding="10">
+  <tr>
+    <td valign="top" width="33%">
+      <h3>🌐 Réseaux & Sécurité</h3>
+      <img src="https://img.shields.io/badge/pfSense-000000?style=flat-square&logo=pfsense&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/CrowdSec-FF4F00?style=flat-square&logo=crowdsec&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Authentik-1A73E8?style=flat-square&logo=google&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/AdGuard_Home-43B02A?style=flat-square&logo=adguard&logoColor=white" />
+    </td>
+    <td valign="top" width="33%">
+      <h3>💾 Systèmes & Virtualisation</h3>
+      <img src="https://img.shields.io/badge/Proxmox_VE-E74C3C?style=flat-square&logo=proxmox&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=flat-square&logo=alpine-linux&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+    </td>
+    <td valign="top" width="33%">
+      <h3>🐍 Langages & Outils</h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Ollama_IA-000000?style=flat-square&logo=ollama&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📈 Statistiques GitHub
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=x3noux11&show_icons=true&theme=tokyonight&count_private=true" alt="Stats GitHub de x3noux11" height="195px" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=x3noux11&layout=compact&theme=tokyonight" alt="Langages les plus utilisés par x3noux11" height="195px" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=x3noux11&theme=tokyonight" alt="Streak GitHub de x3noux11" />
+</div>
+
+---
+
+<div align="center">
+  <i>"L'auto-hébergement n'est pas seulement un moyen d'héberger ses services, c'est le meilleur moyen de comprendre comment fonctionnent réellement le réseau et les systèmes."</i><br><br>
+  📬 N'hésite pas à explorer mes dépôts ou à me contacter si tu partages les mêmes passions pour le self-hosting !
+</div>
