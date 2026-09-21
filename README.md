@@ -71,8 +71,10 @@ Mon GitHub sert à documenter et versionner les briques de mon infrastructure pe
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=x3noux11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Stats GitHub" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=x3noux11&layout=compact&theme=tokyonight&hide_border=true" alt="Langages" />
+![Followers](https://img.shields.io/github/followers/x3noux11?style=flat-square&color=1a1b26&labelColor=1a1b26&logo=github&logoColor=7aa2f7)
+![Stars](https://img.shields.io/github/stars/x3noux11?style=flat-square&color=1a1b26&labelColor=1a1b26&logo=github&logoColor=7aa2f7)
+
+</div>
 
 </div>
 
