@@ -5,7 +5,7 @@
 Passionné d'infrastructure, d'open source et d'IA, je construis et documente mon homelab sur une **architecture Zero Trust**, et je développe mon propre assistant vocal : **Jarvis**.
 Ici : mes configs, mes essais et ce que j'apprends en route.
 
-📍 Normandie &nbsp;·&nbsp; 🎓 Bachelor ASR, puis Bac+5 *Manager en Infrastructures et Cybersécurité des SI* (CESI, dès octobre)
+📍 Normandie &nbsp;·&nbsp; 🎓  Bac+5 *Manager en Infrastructures et Cybersécurité des SI*
 
 [![GitHub](https://img.shields.io/badge/GitHub-x3noux11-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7)](https://github.com/x3noux11)
 
