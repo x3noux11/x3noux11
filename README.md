@@ -22,24 +22,25 @@ Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (H
 
 ## 🏗️ Mon Homelab & Projets
 
-Mon GitHub me sert principalement à documenter, versionner et partager les briques de mon infrastructure personnelle :
+Mon GitHub me sert à documenter, versionner et partager les briques de mon infrastructure personnelle, construite sur une **architecture Zero Trust**.
 
 ### 📡 1. Réseau & Sécurité
-* **Pare-feu & Routage :** Clustering HA avec **OPNsense / pfSense** et protocoles de failover.
-* **Exposition Sécurisée :** **Reverse Proxies (Nginx Proxy Manager)** et solutions de tunnel de contournement réseau.
-* **Sécurité & SSO :** Centralisation des accès avec **Authentik** (MFA, Passkeys, OIDC) et sécurisation contre les intrusions via **CrowdSec**.
+
+- **Pare-feu & Routage :** **OPNsense** (Kea DHCP), commutation **MikroTik CRS**, segmentation en **VLAN** (LAN, IoT…) en cours de déploiement.
+- **Exposition sécurisée :** **Cloudflare Tunnel**, **Traefik** en reverse proxy, accès distant via **NetBird / Headscale**.
+- **Identité & Sécurité :** **Authentik** (SSO, MFA, Passkeys FIDO2/WebAuthn), **CrowdSec**, PKI interne **step-ca**, DNS filtrant avec **AdGuard Home** (split-horizon).
 
 ### 🐳 2. Virtualisation & Stockage
-* **Hyperviseur :** Cluster de nœuds **Proxmox VE** faisant tourner des VM Debian et des conteneurs légers LXC.
-* **Stockage :** Expérimentations avec du stockage distribué et gestion d'arrays de disques locaux.
-* **Services Auto-hébergés :** 
-  * Solutions de synchronisation de données (CouchDB pour Obsidian, etc.).
-  * Intégration d'**Ollama** pour exécuter des modèles de langage localement.
-  * Automatisation d'une stack de gestion de médias sous Docker.
 
-### 🤖 3. Automatisation & Scripts
-* **Pipelines & Scripts :** Développement de scripts (Python, Bash) permettant de connecter des APIs de traitement d'images ou de données avec mes gestionnaires de téléchargements et de fichiers locaux.
+- **Hyperviseur :** **Proxmox VE** (VM Debian, conteneurs LXC), GPU passthrough (RX 580) pour Jellyfin.
+- **Sauvegarde :** **Proxmox Backup Server** sur ZFS (RAIDZ1).
+- **Observabilité :** stack **Prometheus / Grafana / Loki / Alloy**, **Uptime Kuma**.
+- **Services auto-hébergés :** Nextcloud, Immich, Forgejo, Home Assistant, Vaultwarden, Jellyfin + suite Arr, n8n, FreshRSS, SearXNG.
+- 
+### 🤖 3. IA locale & Automatisation
 
+- **Inférence locale :** **Ollama** (dont Qwen-VL) avec **LiteLLM** comme passerelle.
+- **Automatisation :** workflows **n8n**, scripts Python / Bash.
 ---
 
 ## 🛠️ Boîte à outils technique
