@@ -1,102 +1,79 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Alexandre&subtitle=Systems%20%26%20Networks%20Technician%20%7C%20Homelab%20Enthusiast&fontSize=35&fontAlignY=40&descSize=18&descAlignY=62" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1a1b26&fontColor=7aa2f7&height=200&section=header&text=Alexandre&fontSize=52&fontAlignY=38&desc=Homelab%20%C2%B7%20IA%20locale%20%C2%B7%20Cybers%C3%A9curit%C3%A9&descSize=17&descAlignY=60" alt="Alexandre" />
+
+Passionné d'infrastructure, d'open source et d'IA, je construis et documente mon homelab sur une **architecture Zero Trust**, et je développe mon propre assistant vocal : **Jarvis**.
+Ici : mes configs, mes essais et ce que j'apprends en route.
+
+📍 Normandie &nbsp;·&nbsp; 🎓 Bachelor ASR, puis Bac+5 *Manager en Infrastructures et Cybersécurité des SI* (CESI, dès octobre)
+
+[![GitHub](https://img.shields.io/badge/GitHub-x3noux11-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7)](https://github.com/x3noux11)
+
 </div>
+
+## Jarvis, mon assistant vocal
+
+Un assistant vocal personnel intégré à ma domotique, que je fais évoluer en continu.
+
+- **Domotique :** intégration avec Home Assistant
+- **Interaction :** détection de wake word, mémoire persistante (SQLite)
+- **Modèles :** passerelle **LiteLLM** qui route vers plusieurs fournisseurs (Groq, Cerebras, Mistral, DashScope), ce qui permet de comparer et de changer de modèle sans toucher au reste
+
+## Mon homelab
+
+Mon GitHub sert à documenter et versionner les briques de mon infrastructure personnelle.
+
+**Réseau & sécurité**
+- **Pare-feu & routage :** OPNsense, Kea DHCP, commutation MikroTik CRS, segmentation en VLAN (LAN en place, IoT en cours)
+- **Exposition sécurisée :** Cloudflare Tunnel, Traefik en reverse proxy, accès distant via NetBird / Headscale
+- **Identité & protection :** Authentik (SSO, MFA, Passkeys FIDO2/WebAuthn), CrowdSec, PKI interne (step-ca), DNS filtrant (AdGuard Home) avec split-horizon
+
+**Virtualisation & stockage**
+- **Hyperviseur :** Proxmox VE (VM Debian, conteneurs LXC), GPU passthrough (RX 580) pour Jellyfin
+- **Sauvegarde :** Proxmox Backup Server sur ZFS RAIDZ1 (en cours de mise en place)
+- **Observabilité :** Prometheus, Grafana, Loki, Alloy, Uptime Kuma
+
+**Services auto-hébergés**
+- Nextcloud, Immich, Forgejo, Home Assistant, Vaultwarden, Jellyfin + suite Arr, n8n, FreshRSS, SearXNG, LanCache
+
+**IA locale**
+- Ollama (dont Qwen-VL) et LiteLLM, exploration de k3s / Kubernetes sur ARM
+
+## Boîte à outils
 
 <div align="center">
 
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/x3noux11)
+**Réseau & sécurité**<br>
+![OPNsense](https://img.shields.io/badge/OPNsense-1a1b26?style=flat-square&logo=opnsense&logoColor=7aa2f7)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-1a1b26?style=flat-square&logo=cloudflare&logoColor=7aa2f7)
+![CrowdSec](https://img.shields.io/badge/CrowdSec-1a1b26?style=flat-square&logo=crowdsec&logoColor=7aa2f7)
+![Authentik](https://img.shields.io/badge/Authentik-1a1b26?style=flat-square&logo=authentik&logoColor=7aa2f7)
+![Traefik](https://img.shields.io/badge/Traefik-1a1b26?style=flat-square&logo=traefikproxy&logoColor=7aa2f7)
+
+**Systèmes & virtualisation**<br>
+![Proxmox](https://img.shields.io/badge/Proxmox_VE-1a1b26?style=flat-square&logo=proxmox&logoColor=7aa2f7)
+![Docker](https://img.shields.io/badge/Docker-1a1b26?style=flat-square&logo=docker&logoColor=7aa2f7)
+![Debian](https://img.shields.io/badge/Debian-1a1b26?style=flat-square&logo=debian&logoColor=7aa2f7)
+![Linux](https://img.shields.io/badge/Linux-1a1b26?style=flat-square&logo=linux&logoColor=7aa2f7)
+![Home Assistant](https://img.shields.io/badge/Home_Assistant-1a1b26?style=flat-square&logo=homeassistant&logoColor=7aa2f7)
+
+**IA, langages & outils**<br>
+![Python](https://img.shields.io/badge/Python-1a1b26?style=flat-square&logo=python&logoColor=7aa2f7)
+![Bash](https://img.shields.io/badge/Bash-1a1b26?style=flat-square&logo=gnubash&logoColor=7aa2f7)
+![SQLite](https://img.shields.io/badge/SQLite-1a1b26?style=flat-square&logo=sqlite&logoColor=7aa2f7)
+![Ollama](https://img.shields.io/badge/Ollama-1a1b26?style=flat-square&logo=ollama&logoColor=7aa2f7)
+![n8n](https://img.shields.io/badge/n8n-1a1b26?style=flat-square&logo=n8n&logoColor=7aa2f7)
+![Markdown](https://img.shields.io/badge/Markdown-1a1b26?style=flat-square&logo=markdown&logoColor=7aa2f7)
 
 </div>
 
----
-
-## 🙋‍♂️ À propos de moi
-
-Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (Homelab)** et la **sécurisation des systèmes**. Actuellement administrateur systèmes et réseaux et en cours de formation manager en infrastructures et cybersécurité des SI en alternance, je consacre une grande partie de mon temps libre à concevoir, sécuriser et automatiser des infrastructures réseau et des services auto-hébergés.
-
-* 🛠️ **En ce moment, je travaille sur :** L'automatisation de mes pipelines de routage réseau et l'intégration d'outils d'IA locale à mes services.
-* 🔒 **Focus principal :** Sécurisation périmétrique (MFA, SSO, Reverse Proxies).
-* 🚀 **Objectif :** Évoluer vers des rôles d'administration systèmes et réseaux avancés ou de gestion de la sécurité informatique.
-
----
-
-## 🏗️ Mon Homelab & Projets
-
-Mon GitHub me sert à documenter, versionner et partager les briques de mon infrastructure personnelle, construite sur une **architecture Zero Trust**.
-
-### 📡 1. Réseau & Sécurité
-
-- **Pare-feu & Routage :** **OPNsense** (Kea DHCP), commutation **MikroTik CRS**, segmentation en **VLAN** (LAN, IoT…) en cours de déploiement.
-- **Exposition sécurisée :** **Cloudflare Tunnel**, **Traefik** en reverse proxy, accès distant via **NetBird / Headscale**.
-- **Identité & Sécurité :** **Authentik** (SSO, MFA, Passkeys FIDO2/WebAuthn), **CrowdSec**, PKI interne **step-ca**, DNS filtrant avec **AdGuard Home** (split-horizon).
-
-### 🐳 2. Virtualisation & Stockage
-
-- **Hyperviseur :** **Proxmox VE** (VM Debian, conteneurs LXC), GPU passthrough (RX 580) pour Jellyfin.
-- **Sauvegarde :** **Proxmox Backup Server** sur ZFS (RAIDZ1).
-- **Observabilité :** stack **Prometheus / Grafana / Loki / Alloy**, **Uptime Kuma**.
-- **Services auto-hébergés :** Nextcloud, Immich, Forgejo, Home Assistant, Vaultwarden, Jellyfin + suite Arr, n8n, FreshRSS, SearXNG.
-- 
-### 🤖 3. IA locale & Automatisation
-
-- **Inférence locale :** **Ollama** avec **LiteLLM** comme passerelle.
-- **Automatisation :** workflows **n8n**, scripts Python / Bash.
----
-
-## 🛠️ Boîte à outils technique
-
-<table align="center" border="0" cellpadding="10">
-  <tr>
-    <td valign="top" width="33%">
-      <h3>🌐 Réseaux & Sécurité</h3>
-      <img src="https://img.shields.io/badge/pfSense-000000?style=flat-square&logo=pfsense&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/CrowdSec-FF4F00?style=flat-square&logo=crowdsec&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Authentik-1A73E8?style=flat-square&logo=google&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/AdGuard_Home-43B02A?style=flat-square&logo=adguard&logoColor=white" />
-    </td>
-    <td valign="top" width="33%">
-      <h3>💾 Systèmes & Virtualisation</h3>
-      <img src="https://img.shields.io/badge/Proxmox_VE-E74C3C?style=flat-square&logo=proxmox&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=flat-square&logo=alpine-linux&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-    </td>
-    <td valign="top" width="33%">
-      <h3>🐍 Langages & Outils</h3>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Ollama_IA-000000?style=flat-square&logo=ollama&logoColor=white" />
-    </td>
-  </tr>
-</table>
-
----
-
-## 📈 Statistiques GitHub
+## Statistiques GitHub
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=x3noux11&show_icons=true&theme=tokyonight&count_private=true" alt="Stats GitHub de x3noux11" height="195px" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=x3noux11&layout=compact&theme=tokyonight" alt="Langages les plus utilisés par x3noux11" height="195px" />
-      </td>
-    </tr>
-  </table>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=x3noux11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Stats GitHub" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=x3noux11&layout=compact&theme=tokyonight&hide_border=true" alt="Langages" />
+
 </div>
 
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=x3noux11&theme=tokyonight" alt="Streak GitHub de x3noux11" />
-</div>
-
----
-
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1a1b26&height=100&section=footer" width="100%" alt="" />
