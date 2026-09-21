@@ -12,7 +12,7 @@
 
 ## 🙋‍♂️ À propos de moi
 
-Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (Homelab)** et la **sécurisation des systèmes**. Actuellement technicien systèmes et réseaux et en cours de formation d'administrateur, je consacre une grande partie de mon temps libre à concevoir, sécuriser et automatiser des infrastructures réseau et des services auto-hébergés.
+Passionné par l'informatique de niveau infrastructure, l'**auto-hébergement (Homelab)** et la **sécurisation des systèmes**. Actuellement administrateur systèmes et réseaux et en cours de formation manager en infrastructures et cybersécurité des SI en alternance, je consacre une grande partie de mon temps libre à concevoir, sécuriser et automatiser des infrastructures réseau et des services auto-hébergés.
 
 * 🛠️ **En ce moment, je travaille sur :** L'automatisation de mes pipelines de routage réseau et l'intégration d'outils d'IA locale à mes services.
 * 🔒 **Focus principal :** Sécurisation périmétrique (MFA, SSO, Reverse Proxies).
