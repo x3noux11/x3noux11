@@ -39,7 +39,7 @@ Mon GitHub me sert à documenter, versionner et partager les briques de mon infr
 - 
 ### 🤖 3. IA locale & Automatisation
 
-- **Inférence locale :** **Ollama** (dont Qwen-VL) avec **LiteLLM** comme passerelle.
+- **Inférence locale :** **Ollama** avec **LiteLLM** comme passerelle.
 - **Automatisation :** workflows **n8n**, scripts Python / Bash.
 ---
 
